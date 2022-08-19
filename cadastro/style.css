@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(90deg, rgba(104, 236, 80, 1) 2%, rgba(255, 255, 255, 1) 100%);
+    background: rgb(10, 10, 10);
+    background: linear-gradient(41deg, rgba(10, 10, 10, 1) 0%, rgba(87, 230, 28, 1) 100%);
 
 }
 
@@ -8,7 +9,7 @@ span {
 }
 
 .b-shadow {
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 4px 4px 4px gray;
     border-radius: 8px;
 }
 
@@ -24,8 +25,10 @@ a:hover {
     color: green;
 }
 
+
+
 a {
-    color: gray;
+    color: white;
 }
 
 .genero input:hover {
@@ -57,6 +60,16 @@ input[type=number]::-webkit-inner-spin-button {
 
 }
 
+.inc {
+    background-color: white;
+
+}
+
+.inc:hover {
+    background: green;
+
+}
+
 input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
@@ -66,9 +79,11 @@ input[type=number] {
 
 
 
-label {
+label,
+p {
     font-weight: bold;
     margin-top: 8px;
+    color: green
 }
 
 button:hover {
