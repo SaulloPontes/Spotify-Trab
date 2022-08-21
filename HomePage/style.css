@@ -1,6 +1,32 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: black;
+    height:10vh;
+}
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li {
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+#logo{
+    width: 120px;
+}
+
+
 body .wrapper {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -21,7 +47,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
-    background: #363636;
+    background: black;
     color: #fafafa;
     transition: all 0.3s;
 }

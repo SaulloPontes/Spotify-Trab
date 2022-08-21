@@ -35,7 +35,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #3c3c9b;
+    background: black;
     height: 10vh;
 }
   
@@ -71,6 +71,7 @@ nav {
 .left_login > h1 {
     font-size: 3vw;
     color: #77ffc0;
+
 }
 
 .left_image{
@@ -93,7 +94,7 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: black;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 
@@ -101,7 +102,7 @@ nav {
 
 
 .card_login > h1{
-    color: #00ff88;
+    color: black;
     font-weight: 800;
     margin: 0;
 }
@@ -115,6 +116,7 @@ nav {
     justify-content: center;
     margin: 10px 0px;
 }
+
 
 .textfield > input{
     width: 100%;
@@ -148,8 +150,8 @@ nav {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b;
-    background: #00ff88;
+    color:white;
+    background: rgb(1, 51, 1);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052 ;
 }
