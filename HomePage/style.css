@@ -1,20 +1,20 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
-.nav-bar{
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: black;
-    height:10vh;
+    height: 10vh;
 }
-  
+
 .nav-list {
     list-style: none;
     display: flex;
 }
-  
+
 .nav-list li {
     color: white;
     letter-spacing: 3px;
@@ -22,7 +22,7 @@
 }
 
 
-#logo{
+#logo {
     width: 120px;
 }
 
@@ -40,7 +40,9 @@ p .wrapper {
     color: #7386D5;
 }
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
@@ -88,6 +90,7 @@ a, a:hover, a:focus {
     #sidebar {
         margin-left: -250px;
     }
+
     #sidebar.active {
         margin-left: 0;
     }
@@ -117,12 +120,15 @@ body {
     padding: var(--padding);
     color: var(--primary-color);
 }
-i{
+
+i {
     color: var(--secondary-color);
 }
-i:hover{
+
+i:hover {
     color: var(--primary-color);
 }
+
 .song-bar {
     position: absolute;
     left: var(--padding);
@@ -140,20 +146,24 @@ i:hover{
     align-items: center;
     gap: 1em;
 }
+
 .image-container {
     --size: 4.5em;
     flex-shrink: 0;
     width: var(--size);
     height: var(--size);
 }
+
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .song-description p {
     margin: 0.2em;
 }
+
 .title,
 .artist {
     display: -webkit-box;
@@ -161,18 +171,22 @@ i:hover{
     -webkit-line-clamp: 1;
     overflow: hidden;
 }
+
 .title:hover,
 .artist:hover {
     text-decoration: underline;
 }
-.artist{
+
+.artist {
     color: var(--secondary-color);
 }
-.icons{
+
+.icons {
     display: flex;
     gap: 1em;
 }
-.progress-controller{
+
+.progress-controller {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -181,46 +195,54 @@ i:hover{
     gap: 1.5em;
     color: var(--secondary-color);
 }
-.control-buttons{
+
+.control-buttons {
     display: flex;
     align-items: center;
     gap: 2em;
 }
-.play-pause{
+
+.play-pause {
     display: inline-block;
     padding: 1em;
     background-color: var(--primary-color);
     color: #111;
     border-radius: 50%;
 }
-.play-pause:hover{
+
+.play-pause:hover {
     transform: scale(1.1);
     color: #111;
 }
-.progress-container{
+
+.progress-container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1em;
 }
-.progress-bar{
+
+.progress-bar {
     height: 4px;
     border-radius: 10px;
     width: 30%;
     background-color: #ccc4;
 }
-.progress{
+
+.progress {
     position: relative;
     height: 100%;
     width: 30%;
     border-radius: 10px;
     background-color: var(--secondary-color);
 }
-.progress-bar:hover .progress{
+
+.progress-bar:hover .progress {
     background-color: var(--green-color);
 }
-.progress-bar:hover .progress::after{
+
+.progress-bar:hover .progress::after {
     content: "";
     position: absolute;
     --size: 1em;
@@ -231,21 +253,71 @@ i:hover{
     background-color: var(--primary-color);
     transform: translate(50%, calc(2px - 50%));
 }
-.other-features{
+
+.other-features {
     position: absolute;
     right: var(--padding);
     display: flex;
     flex-direction: row;
     gap: 1em;
 }
-.volume-bar{
+
+.volume-bar {
     display: flex;
     align-items: center;
     gap: .7em;
 }
-.volume-bar .progress-bar{
+
+.volume-bar .progress-bar {
     width: 6em;
 }
-.volume-bar .progress-bar:hover .progress::after{
+
+.volume-bar .progress-bar:hover .progress::after {
     --size: .8em;
+}
+
+.tabela {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+}
+
+.tabela thead {
+
+    font-size: 18px;
+}
+
+.tabela td {
+
+    padding: 5px;
+
+}
+
+.tabela img {
+    width: 60%;
+
+}
+
+
+
+.tabela {
+    border-collapse: collapse;
+}
+
+.tabela {
+    text-align: center;
+}
+
+
+.tabela p {
+    padding-top: 10px;
+}
+
+.tabela h3 {
+    background: rgba(0, 0, 0, 0.171);
+    padding: 5px;
+}
+
+
+.tabela th {
+    padding: 5px;
 }
