@@ -1,0 +1,95 @@
+body {
+    background: rgb(10, 10, 10);
+    background: linear-gradient(41deg, rgba(10, 10, 10, 1) 0%, rgba(87, 230, 28, 1) 100%);
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.b-shadow {
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 8px;
+}
+
+input:hover {
+    box-shadow: 2px 1px 1px black;
+}
+
+input {
+    margin-top: 8px;
+}
+
+a:hover {
+    color: green;
+}
+
+
+
+a {
+    color: white;
+}
+
+.genero input:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.caixa input:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.genero label {
+    margin: 8px;
+}
+
+.genero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+
+
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+.inc {
+    background-color: white;
+
+}
+
+.inc:hover {
+    background: green;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+
+
+
+label,
+p {
+    font-weight: bold;
+    margin-top: 8px;
+    color: green
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.caixa label {
+    display: block;
+}
